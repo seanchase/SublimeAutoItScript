@@ -4,8 +4,8 @@
 	"variants": [
 		{
 			"name": "Run",
-			"target": "autoitcompile",
-		},
+			"target": "autoitcompile"
+		}
 	]
 
 }
