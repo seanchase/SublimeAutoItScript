@@ -9,6 +9,10 @@ If you have the default Sublime keybindings intact, then:
 * <kbd>Ctrl+Shift+B</kbd> will compile the current file (with Aut2Exe.exe)
 * <kbd>Alt+T</kbd><kbd>T</kbd> will invoke Tidy on the current file (with Tidy.exe).
 
+## Goto-documentation plugin integration
+Instructions on how to configure goto-documentation plugin for AutoIt (F1 Hotkey will take you to documentation for word under cursor):
+* http://www.autoitscript.com/forum/topic/148016-sublimetext/page-4#entry1092321
+
 ## Credits
 * Syntax rules: http://sublime-text-community-packages.googlecode.com/svn/pages/AutoIt.html
 * Snippets: http://www.autoitscript.com/forum/topic/148016-sublimetext/page-3#entry1080276
