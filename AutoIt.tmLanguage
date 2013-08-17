@@ -54,7 +54,7 @@
 				</dict>
 			</dict>
 			<key>match</key>
-			<string>#(?i:include|include-once)\s+((["'&lt;]).*(["'&gt;]))$</string>
+			<string>#(?i:include)\s+((["'&lt;]).*(["'&gt;]))$</string>
 			<key>name</key>
 			<string>keyword.control.import.autoit</string>
 		</dict>
@@ -68,23 +68,23 @@
 				</dict>
 			</dict>
 			<key>match</key>
-			<string>#\b(?i:ce|comments-end|comments-start|cs|include|include-once|notrayicon|onautoitstartregister|requireadmin|endregion|forcedef|forceref|ignorefunc|pragma|region)\b(.*)$</string>
+			<string>#\b(?i:include-once|notrayicon|onautoitstartregister|requireadmin|endregion|forcedef|forceref|ignorefunc|pragma|region)\b(.*)$</string>
 			<key>name</key>
 			<string>keyword.control.directives.autoit</string>
 		</dict>
 		<dict>
 			<key>begin</key>
-			<string>#cs</string>
+			<string>(?i:#cs)</string>
 			<key>end</key>
-			<string>#ce.*$</string>
+			<string>(?i:#ce).*$</string>
 			<key>name</key>
 			<string>comment.block.cs.autoit</string>
 		</dict>
 		<dict>
 			<key>begin</key>
-			<string>#comments-start</string>
+			<string>(?i:#comments-start)</string>
 			<key>end</key>
-			<string>#comments-end.*$</string>
+			<string>(?i:#comments-end).*$</string>
 			<key>name</key>
 			<string>comment.block.comments-start.autoit</string>
 		</dict>
