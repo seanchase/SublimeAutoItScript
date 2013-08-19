@@ -56,7 +56,7 @@ $LngMsB2='Files not found'
 $LngMsB3='Remove the old database file to create a new'
 $LngMsB4='Message'
 $LngMsB5='"Constants" and "Functions" is not found'
-$LngMsB6='Functions and variables are not'
+$LngMsB6='There are no functions and variables in the file'
 $LngAll='All'
 $LngMsn='Missing'
 $LngUnn='Unnecessary'
@@ -148,7 +148,7 @@ EndIf
 
 $a=_Search_Fun1($script_text) ; возвращает массив без повторов
 If @error And $exist=0 Then
-	MsgBox(0, $LngMsB1, 'Нет функций и переменных')
+	MsgBox(0, $LngMsB1, $LngMsB6)
 	Exit
 EndIf
 
