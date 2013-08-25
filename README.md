@@ -17,7 +17,7 @@ For the build systems and Tidy command, if you have a non-default installation y
 
 ## Goto-documentation Integration
 Instructions on how to configure goto-documentation plugin for AutoIt (F1 Hotkey will take you to documentation for word under cursor):
-* http://www.autoitscript.com/forum/topic/148016-sublimetext/page-4#entry1092321
+* https://github.com/AutoIt/AutoItScript/blob/master/goto-documentation_instructions.md
 
 ## Credits
 * Syntax rules: http://sublime-text-community-packages.googlecode.com/svn/pages/AutoIt.html
