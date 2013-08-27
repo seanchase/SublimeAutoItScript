@@ -2,12 +2,13 @@
 	"schema_version": "2.0",
 	"packages": [
 		{
-			"details": "https://github.com/AutoIt/AutoItScript",
+			"name": "AutoItScript",
+			"details": "https://github.com/AutoIt/SublimeAutoItScript",
 			"releases": [
 				{
 					"sublime_text": "*",
 					"platforms": "windows",
-					"details": "https://github.com/AutoIt/AutoItScript/tags"
+					"details": "https://github.com/AutoIt/SublimeAutoItScript/tags"
 				}
 			]
 		}
