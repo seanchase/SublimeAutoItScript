@@ -315,11 +315,11 @@ While 1
 		Case $BtnLog
 			MsgBox(8192+262144, $LngLog, $StatLog)
 		Case $BtnAtC
-			ClipPut(StringTrimRight($IncludeAll0, 4))
+			ClipPut(StringTrimRight($IncludeAll0, 2))
 		Case $BtnMtC
-			ClipPut(StringTrimRight($Missing0, 4))
+			ClipPut(StringTrimRight($Missing0, 2))
 		Case $BtnUtC
-			ClipPut(StringTrimRight($Unnecessary0, 4))
+			ClipPut(StringTrimRight($Unnecessary0, 2))
 		Case $BtnAtS
 			$tmp=FileRead($Path_AU3)
 			$tmp=StringRegExpReplace($tmp, '(?i)(?=\A|\s)(\s*#include\s*[\x3c\x22\x27]*[^\r\n]+?\.au3[\x3e\x22\x27])', '')
