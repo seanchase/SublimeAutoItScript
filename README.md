@@ -1,4 +1,4 @@
-# AutoItScript - Package for Sublime Text 2/3
+# SublimeAutoItScript - Package for Sublime Text 2/3
 AutoItScript AU3 language package for SublimeText including syntax highlighting, comments toggling, auto-completions, build systems for run and compile, Tidy command, IncludeHelper command.
 
 ## Package Installation
