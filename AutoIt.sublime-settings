@@ -4,5 +4,5 @@
 	"TidyExePath": "C:\\Program Files\\AutoIt3\\SciTE\\Tidy\\Tidy.exe",
 	"IncludeHelperAU3Path": "{PACKAGE_PATH}\\AutoItScript\\Include_Helper.au3",
 	
-	"word_separators": "./\\()\"'-:,.;<>~!#%^&*|+=[]{}`~?",
+	"word_separators": "./\\()\"'-:,.;<>~!#%^&*|+=[]{}`~?"
 }
