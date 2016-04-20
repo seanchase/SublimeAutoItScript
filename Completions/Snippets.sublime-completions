@@ -1,0 +1,16 @@
+{
+	"scope": "source.autoit",
+	"completions": [{
+		"trigger": "Func",
+		"contents": "Func NameFunc()\n\n\t${1}\n\nEndFunc"
+	}, {
+		"trigger": "If",
+		"contents": "If ( ${1:true} ) Then\n\n\t${2}\n\nEndIf"
+	}, {
+		"trigger": "Ternary",
+		"contents": "${1:\\$variable} = ( ${2:\\$a == \\$b} ) ? ${3:true} : ${4:false}"
+	}, {
+		"trigger": "Switch",
+		"contents": "Switch (${1:\\$variable})\n\tCase ${2:6 To 11}\n\t\t${3:true}\n\tCase ${4:12 To 17}\n\t\t${5:true}\n\tCase Else\n\t\t${6:false}\nEndSwitch"
+	}]
+}
