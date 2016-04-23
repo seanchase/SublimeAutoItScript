@@ -70,11 +70,10 @@ class autoitincludehelper(sublime_plugin.WindowCommand):
 
 class autoitinfo(sublime_plugin.WindowCommand):
 	def run(self):
-		filepath = self.window.active_view().file_name()
 		AutoItInfo = sublime.load_settings("AutoIt.sublime-settings").get("AutoItInfo")
 
 		try:
-			subprocess.call(AutoItInfo)
+			os.startfile(AutoItInfo)
 		except Exception as e:
 			sublime.active_window().run_command("show_panel", {"panel": "console"})
 			print("------------ ERROR: Python exception trying to run following command ------------")
