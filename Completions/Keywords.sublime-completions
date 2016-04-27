@@ -1,0 +1,13 @@
+{
+"scope": "source.autoit",
+"completions": [
+	{ "trigger": "Dim", "contents": "Dim" },
+	{ "trigger": "Local", "contents": "Local" },
+	{ "trigger": "Global", "contents": "Global" },
+	{ "trigger": "Const", "contents": "Const" },
+	{ "trigger": "And", "contents": "And" },
+	{ "trigger": "Or", "contents": "Or" },
+	{ "trigger": "Not", "contents": "Not" },
+	{ "trigger": "ByRef", "contents": "ByRef" },
+	]
+}
