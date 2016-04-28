@@ -1,6 +1,6 @@
 {
-"scope": "source.autoit",
-"completions": [
+	"scope": "source.autoit",
+	"completions": [
 	{ "trigger": "Dim", "contents": "Dim" },
 	{ "trigger": "Local", "contents": "Local" },
 	{ "trigger": "Global", "contents": "Global" },
