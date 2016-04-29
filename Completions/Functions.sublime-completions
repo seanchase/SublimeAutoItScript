@@ -695,7 +695,7 @@
 		"contents": "Mod(${1:value1}, ${2:value2})"
 	}, {
 		"trigger": "MouseClick()",
-		"contents": "MouseClick(${1:button}, ${2:y}${3:, ${4:[x]}${5:, ${6:[clicks]}${7:, ${8:[speed]}}}})"
+		"contents": "MouseClick(\"${1:button}\", ${2:${3:[x}${4:, ${5:y}${6:, ${7:[clicks}${8:, ${9:[speed]]]}}}}})"
 	}, {
 		"trigger": "MouseClickDrag()",
 		"contents": "MouseClickDrag(${1:button}, ${2:x1}, ${3:y1}, ${4:x2}, ${5:y2}${6:, ${7:[speed]}})"
@@ -830,7 +830,7 @@
 		"contents": "RunWait(${1:program}${2:, \"${3:[workingdir]}\"${4:, ${5:[showflag]}${6:, ${7:[optflag]}}}})"
 	}, {
 		"trigger": "Send()",
-		"contents": "Send(${1:keys}${2:, ${3:[flag]}})"
+		"contents": "Send(\"${1:keys}\"${2:, ${3:[flag]}})"
 	}, {
 		"trigger": "SendKeepActive()",
 		"contents": "SendKeepActive(${1:title}${2:, \"${3:[text]}\"})"

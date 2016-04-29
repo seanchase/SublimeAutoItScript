@@ -24,5 +24,11 @@
 	}, {
 		"trigger": "#cs",
 		"contents": "#cs\n\t${1}\n#ce"
+	}, {
+		"trigger": "Do...Until",
+		"contents": "Do\n\n\t${1}\n\nUntil ( ${2:false} )"
+	}, {
+		"trigger": "Region...EndRegion",
+		"contents": "#Region\n\n\t${1}\n\n#EndRegion"
 	}]
 }
