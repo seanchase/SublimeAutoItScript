@@ -8,6 +8,8 @@
 	{ "trigger": "#include <FontConstants.au3>", "contents": "#include <FontConstants.au3>" },
 	{ "trigger": "#include <GUIConstants.au3>", "contents": "#include <GUIConstants.au3>" },
 	{ "trigger": "#include <GUIConstantsEx.au3>", "contents": "#include <GUIConstantsEx.au3>" },
+	{ "trigger": "#include <GuiComboBox.au3>", "contents": "#include <GuiComboBox.au3>" },
+	{ "trigger": "#include <Array.au3>", "contents": "#include <Array.au3>" },
 	{ "trigger": "#include <WindowsConstants.au3>", "contents": "#include <WindowsConstants.au3>" },
 	{ "trigger": "#include <MsgBoxConstants.au3>", "contents": "#include <MsgBoxConstants.au3>" },
 	{ "trigger": "#include-once", "contents": "#include-once" }

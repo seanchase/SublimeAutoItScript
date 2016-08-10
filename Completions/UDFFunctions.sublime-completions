@@ -19,6 +19,7 @@
 	{ "trigger": "_ArrayPush()", "contents": "_ArrayPush($1)" },
 	{ "trigger": "_ArrayReverse()", "contents": "_ArrayReverse($1)" },
 	{ "trigger": "_ArraySearch()", "contents": "_ArraySearch($1)" },
+	{ "trigger": "_ArrayShuffle()", "contents": "_ArrayShuffle($1)" },
 	{ "trigger": "_ArraySort()", "contents": "_ArraySort($1)" },
 	{ "trigger": "_ArraySwap()", "contents": "_ArraySwap($1)" },
 	{ "trigger": "_ArrayToClip()", "contents": "_ArrayToClip($1)" },
